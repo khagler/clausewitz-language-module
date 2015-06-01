@@ -296,6 +296,10 @@
 		<string>modifier</string>
 		<string>factor</string>
 		<string>is_triggered_only</string>
+		<string>name</string>
+		<string>immediate</string>
+		<string>value</string>
+		<string>duration</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
@@ -818,23 +822,23 @@
 		)		
 		</string>
 		<key>Comment Pattern</key>
-		<string><![CDATA[
+		<string>
 		(?x:
 			(\#.*?$)
 		)
-		]]></string>
+		</string>
 		<key>String Pattern</key>
-		<string><![CDATA[
+		<string>
 		(?x:
-			("(\\"|[^"\r]|\\\r)*")
+			(&quot;(\\&quot;|[^&quot;\r]|\\\r)*&quot;)
 		)
-		]]></string>
+		</string>
 		<key>Skip Pattern</key>
-		<string><![CDATA[
+		<string>
 		(?x:
-			(?P>comment) |
-			(?P>string)
-		)]]></string>
+			(?P&gt;comment) |
+			(?P&gt;string)
+		)</string>
 	</dict>
 </dict>
 </plist>
