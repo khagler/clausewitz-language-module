@@ -285,6 +285,17 @@
 		<string>vassalize_or_take_under_title_destroy_duchies</string>
 		<string>war</string>
 		<string>wealth</string>
+		<string>id</string>
+		<string>desc</string>
+		<string>picture</string>
+		<string>min_age</string>
+		<string>max_age</string>
+		<string>trigger</string>
+		<string>option</string>
+		<string>mean_time_to_happen</string>
+		<string>modifier</string>
+		<string>factor</string>
+		<string>is_triggered_only</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
