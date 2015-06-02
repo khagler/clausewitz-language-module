@@ -300,6 +300,9 @@
 		<string>immediate</string>
 		<string>value</string>
 		<string>duration</string>
+		<string>chance</string>
+		<string>ai_chance</string>
+		<string>hide_window</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
