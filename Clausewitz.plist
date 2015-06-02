@@ -811,7 +811,7 @@
 		(?x:
 			(?P&lt;leadspace&gt;^\s*)
 			(?P&lt;function&gt;
-				character_event\s*=\s*\{\r\s*id\s*=\s*
+				(character|long_character|letter|narrative|province|diploresponse|unit)_event\s*=\s*\{\r\s*id\s*=\s*
 				(?P&lt;function_name&gt;
 					\S+
 				)
