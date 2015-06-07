@@ -801,6 +801,8 @@
 		<string>year</string>
 		<string>yearly_income</string>
 	</array>
+	<key>BBLMCommentLineDefault</key>
+	<string>#</string>
 	<key>Language Features</key>
 	<dict>
 		<key>Identifier and Keyword Character Class</key>
