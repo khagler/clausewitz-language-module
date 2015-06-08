@@ -8,13 +8,6 @@
 	<string>Clausewitz</string>
 	<key>BBLMLanguageCode</key>
 	<string>Clwz</string>
-	<key>BBLMSuffixMap</key>
-	<array>
-		<dict>
-			<key>BBLMLanguageSuffix</key>
-			<string>.txt</string>
-		</dict>
-	</array>
 	<key>BBLMPreferredFilenameExtension</key>
 	<string>txt</string>
 	<key>BBLMSupportsTextCompletion</key>
