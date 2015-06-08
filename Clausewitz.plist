@@ -807,10 +807,6 @@
 	<dict>
 		<key>Identifier and Keyword Character Class</key>
 		<string>A-Za-z0-9_\-</string>
-		<key>Open Statement Blocks</key>
-		<string>{</string>
-		<key>Close Statement Blocks</key>
-		<string>}</string>
 		<key>Function Pattern</key>
 		<string>
 		(?x:
