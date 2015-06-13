@@ -281,6 +281,7 @@
 		<string>id</string>
 		<string>desc</string>
 		<string>picture</string>
+		<string>border</string>
 		<string>min_age</string>
 		<string>max_age</string>
 		<string>trigger</string>
@@ -793,6 +794,10 @@
 		<string>would_be_heir_under_law</string>
 		<string>year</string>
 		<string>yearly_income</string>
+		<string>only_women</string>
+		<string>only_rulers</string>
+		<string>capable_only</string>
+		<string>only_playable</string>
 	</array>
 	<key>BBLMCommentLineDefault</key>
 	<string>#</string>
