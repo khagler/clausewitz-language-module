@@ -297,6 +297,9 @@
 		<string>chance</string>
 		<string>ai_chance</string>
 		<string>hide_window</string>
+		<string>potential</string>
+		<string>customizer</string>
+		<string>opposites</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
