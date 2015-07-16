@@ -675,6 +675,7 @@
 		<string>is_titular</string>
 		<string>is_treasurer</string>
 		<string>is_tribal</string>
+		<string>is_nomadic</string>
 		<string>is_tribal_type_title</string>
 		<string>is_valid_attraction</string>
 		<string>is_valid_viking_invasion_target</string>
