@@ -42,6 +42,7 @@
 		<string>OR</string>
 		<string>NOT</string>
 		<string>NOR</string>
+		<string>NAND</string>
 		<string>calc_true_if</string>
 		<string>if</string>
 		<string>break</string>
@@ -124,6 +125,8 @@
 		<string>conquest_culture</string>
 		<string>convert_to_castle</string>
 		<string>convert_to_city</string>
+		<string>convert_to_fort</string>
+		<string>convert_to_nomad</string>
 		<string>convert_to_temple</string>
 		<string>convert_to_tribal</string>
 		<string>copy_random_personality_trait</string>
@@ -136,7 +139,11 @@
 		<string>create_random_priest</string>
 		<string>create_random_soldier</string>
 		<string>create_random_steward</string>
+		<string>create_fort</string>
+		<string>destroy_fort</string>
+		<string>seize_fort</string>
 		<string>create_title</string>
+		<string>create_tradepost</string>
 		<string>chronicle</string>
 		<string>culture</string>
 		<string>culture_techpoints</string>
@@ -146,6 +153,7 @@
 		<string>decadence</string>
 		<string>destroy_landed_title</string>
 		<string>destroy_random_building</string>
+		<string>destroy_settlement</string>
 		<string>destroy_tradepost</string>
 		<string>diplomatic_immunity</string>
 		<string>disband_event_forces</string>
@@ -179,6 +187,8 @@
 		<string>join_defender_wars</string>
 		<string>leave_plot</string>
 		<string>log</string>
+		<string>make_capital_holding</string>
+		<string>make_primary_settlement</string>
 		<string>make_primary_spouse</string>
 		<string>make_primary_title</string>
 		<string>military_techpoints</string>
@@ -210,6 +220,7 @@
 		<string>remove_province_modifier</string>
 		<string>remove_rival</string>
 		<string>remove_settlement</string>
+		<string>remove_special_character_title</string>
 		<string>remove_spouse</string>
 		<string>remove_title</string>
 		<string>remove_trait</string>
@@ -224,6 +235,7 @@
 		<string>reverse_religion</string>
 		<string>reverse_remove_opinion</string>
 		<string>reverse_war</string>
+		<string>revoke_capital_holding</string>
 		<string>revoke_law</string>
 		<string>scaled_wealth</string>
 		<string>seize_trade_post</string>
@@ -236,6 +248,7 @@
 		<string>set_allow_vice_royalties</string>
 		<string>set_appoint_generals</string>
 		<string>set_appoint_regents</string>
+		<string>set_can_toggle_looting</string>
 		<string>set_coa</string>
 		<string>set_defacto_liege</string>
 		<string>set_defacto_vassal</string>
@@ -243,8 +256,13 @@
 		<string>set_character_flag</string>
 		<string>set_dynasty_flag</string>
 		<string>set_global_flag</string>
+		<string>set_government_type</string>
+		<string>set_looting</string>
 		<string>set_province_flag</string>
 		<string>set_title_flag</string>
+		<string>set_title_landless</string>
+		<string>set_title_adventurer</string>
+		<string>set_title_nomad</string>
 		<string>set_guardian</string>
 		<string>set_investiture</string>
 		<string>set_mother</string>
@@ -254,6 +272,7 @@
 		<string>set_protected_inheritance</string>
 		<string>set_real_father</string>
 		<string>set_reincarnation</string>
+		<string>set_special_character_title</string>
 		<string>set_the_kings_full_peace</string>
 		<string>set_the_kings_peace</string>
 		<string>set_tribal_vassal_levy_control</string>
@@ -267,6 +286,7 @@
 		<string>transfer_scaled_wealth</string>
 		<string>treasury</string>
 		<string>unsafe_destroy_landed_title</string>
+		<string>unsafe_give_minor_title</string>
 		<string>unsafe_religion</string>
 		<string>usurp_title</string>
 		<string>usurp_title_only</string>
@@ -300,10 +320,13 @@
 		<string>potential</string>
 		<string>customizer</string>
 		<string>opposites</string>
+		<string>manpower</string>
+		<string>population</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
 		<string>any_allied_character</string>
+		<string>any_army</string>
 		<string>any_attacker</string>
 		<string>any_backed_character</string>
 		<string>any_child</string>
@@ -312,10 +335,15 @@
 		<string>any_courtier</string>
 		<string>any_current_enemy</string>
 		<string>any_de_jure_vassal</string>
+		<string>any_dejure_liege</string>
+		<string>any_defacto_liege</string>
 		<string>any_defender</string>
 		<string>any_dynasty_member</string>
 		<string>any_enemy_plotter</string>
 		<string>any_faction_backer</string>
+		<string>any_feud_rival_clan</string>
+		<string>any_fleet</string>
+		<string>any_fort</string>
 		<string>any_friend</string>
 		<string>any_independent_ruler</string>
 		<string>any_known_enemy_plotter</string>
@@ -333,8 +361,10 @@
 		<string>any_sibling</string>
 		<string>any_spouse</string>
 		<string>any_consort</string>
+		<string>any_title</string>
 		<string>any_trade_post</string>
 		<string>any_unique_dynasty_vassal</string>
+		<string>any_unit</string>
 		<string>any_unknown_enemy_plotter</string>
 		<string>any_vassal</string>
 		<string>any_ward</string>
@@ -369,12 +399,15 @@
 		<string>parent_religion_head</string>
 		<string>plot_target_char</string>
 		<string>random_allied_character</string>
+		<string>random_army</string>
 		<string>random_backed_character</string>
 		<string>random_child</string>
 		<string>random_courtier</string>
 		<string>random_current_enemy</string>
 		<string>random_dynasty_member</string>
 		<string>random_enemy_plotter</string>
+		<string>random_fleet</string>
+		<string>random_fort</string>
 		<string>random_friend</string>
 		<string>random_independent_ruler</string>
 		<string>random_known_enemy_plotter</string>
@@ -391,8 +424,33 @@
 		<string>random_consort</string>
 		<string>random_trade_post</string>
 		<string>random_unknown_enemy_plotter</string>
+		<string>random_unit</string>
 		<string>random_vassal</string>
 		<string>random_ward</string>
+		<string>strongest_clan_vassal</string>
+		<string>weakest_clan_vassal</string>
+		<string>strongest_clan</string>
+		<string>weakest_clan</string>
+		<string>strongest_clan_vassal_except_me</string>
+		<string>weakest_clan_vassal_except_me</string>
+		<string>strongest_clan_except_me</string>
+		<string>weakest_clan_except_me</string>
+		<string>most_populous_clan_vassal</string>
+		<string>least_populous_clan_vassal</string>
+		<string>most_populous_clan</string>
+		<string>least_populous_clan</string>
+		<string>most_populous_clan_vassal_except_me</string>
+		<string>least_populous_clan_vassal_except_me</string>
+		<string>most_populous_clan_except_me</string>
+		<string>least_populous_clan_except_me</string>
+		<string>most_prestigious_clan_vassal</string>
+		<string>least_prestigious_clan_vassal</string>
+		<string>most_prestigious_clan_vassal_except_me</string>
+		<string>least_prestigious_clan_vassal_except_me</string>
+		<string>most_prestigious_clan</string>
+		<string>least_prestigious_clan</string>
+		<string>most_prestigious_clan_except_me</string>
+		<string>least_prestigious_clan_except_me</string>
 		<string>real_father</string>
 		<string>reincarnation_scope</string>
 		<string>regent</string>
@@ -497,6 +555,7 @@
 		<string>combat_rating</string>
 		<string>combat_rating_diff</string>
 		<string>completely_controls</string>
+		<string>completely_controls_region</string>
 		<string>conquest_culture</string>
 		<string>continent</string>
 		<string>controlled_by</string>
@@ -538,11 +597,13 @@
 		<string>has_autocephaly</string>
 		<string>has_building</string>
 		<string>has_called_crusade</string>
+		<string>has_castle</string>
 		<string>has_character_flag</string>
 		<string>has_character_modifier</string>
 		<string>has_claim</string>
 		<string>has_concubinage</string>
 		<string>has_crown_law_title</string>
+		<string>has_city</string>
 		<string>has_de_jure_pretension</string>
 		<string>has_disease</string>
 		<string>has_dlc</string>
@@ -552,7 +613,9 @@
 		<string>has_embargo</string>
 		<string>has_empty_holding</string>
 		<string>has_epidemic</string>
+		<string>has_feud_with</string>
 		<string>has_focus</string>
+		<string>has_fort</string>
 		<string>has_global_flag</string>
 		<string>has_guardian</string>
 		<string>has_heresies</string>
@@ -578,10 +641,13 @@
 		<string>has_raised_levies</string>
 		<string>has_regent</string>
 		<string>has_regiments</string>
+		<string>has_settlement_construction</string>
 		<string>has_siege</string>
 		<string>has_strong_claim</string>
+		<string>has_temple</string>
 		<string>has_title_flag</string>
 		<string>has_trade_post</string>
+		<string>has_tribal</string>
 		<string>has_truce</string>
 		<string>has_weak_claim</string>
 		<string>health</string>
@@ -589,6 +655,7 @@
 		<string>held_title_rating</string>
 		<string>higher_real_tier_than</string>
 		<string>higher_tier_than</string>
+		<string>holding_diff</string>
 		<string>holding_type</string>
 		<string>holy_order</string>
 		<string>imprisoned_days</string>
@@ -600,9 +667,11 @@
 		<string>in_revolt</string>
 		<string>in_siege</string>
 		<string>is_abroad</string>
+		<string>is_active_trigger</string>
 		<string>is_adult</string>
 		<string>is_alive</string>
 		<string>is_allied_with</string>
+		<string>is_allowed_to_loot</string>
 		<string>is_at_sea</string>
 		<string>is_attacker</string>
 		<string>is_betrothed</string>
@@ -629,6 +698,7 @@
 		<string>is_holy_site</string>
 		<string>is_ill</string>
 		<string>is_ironman</string>
+		<string>is_island</string>
 		<string>is_land</string>
 		<string>is_landed</string>
 		<string>is_landless_type_title</string>
@@ -668,6 +738,7 @@
 		<string>is_republic</string>
 		<string>is_rival</string>
 		<string>is_ruler</string>
+		<string>is_settlement_type_allowed</string>
 		<string>is_spiritual</string>
 		<string>is_spymaster</string>
 		<string>is_theocracy</string>
@@ -684,6 +755,7 @@
 		<string>is_vice_royalty</string>
 		<string>is_winter</string>
 		<string>is_within_diplo_range</string>
+		<string>is_settlement</string>
 		<string>leads_faction</string>
 		<string>learning</string>
 		<string>lifestyle_traits</string>
@@ -699,20 +771,26 @@
 		<string>num_culture_realm_provs</string>
 		<string>num_fitting_characters_for_title</string>
 		<string>num_of_baron_titles</string>
+		<string>num_of_baron_titles_in_realm</string>
 		<string>num_of_buildings</string>
 		<string>num_of_children</string>
 		<string>num_of_claims</string>
 		<string>num_of_consorts</string>
 		<string>num_of_count_titles</string>
+		<string>num_of_count_titles_in_realm</string>
 		<string>num_of_duke_titles</string>
+		<string>num_of_duke_titles_in_realm</string>
 		<string>num_of_dynasty_members</string>
 		<string>num_of_emperor_titles</string>
 		<string>num_of_empty_holdings</string>
 		<string>num_of_extra_landed_titles</string>
 		<string>num_of_faction_backers</string>
+		<string>num_of_forts</string>
+		<string>num_of_forts_diff</string>
 		<string>num_of_friends</string>
 		<string>num_of_holy_sites</string>
 		<string>num_of_king_titles</string>
+		<string>num_of_king_titles_in_realm</string>
 		<string>num_of_lovers</string>
 		<string>num_of_max_settlements</string>
 		<string>num_of_plot_backers</string>
@@ -722,6 +800,7 @@
 		<string>num_of_settlements</string>
 		<string>num_of_spouses</string>
 		<string>num_of_titles</string>
+		<string>num_of_titles_in_realm</string>
 		<string>num_of_trade_posts</string>
 		<string>num_of_trade_post_diff</string>
 		<string>num_of_traits</string>
@@ -757,6 +836,11 @@
 		<string>realm_martial</string>
 		<string>realm_size</string>
 		<string>realm_stewardship</string>
+		<string>realm_levy_diff</string>
+		<string>reverse_realm_levy_diff</string>
+		<string>max_realm_levy_diff</string>
+		<string>reverse_max_realm_levy_diff</string>
+		<string>realm_levies</string>
 		<string>rebel</string>
 		<string>relative_power</string>
 		<string>relative_power_to_liege</string>
@@ -778,6 +862,7 @@
 		<string>scaled_wealth</string>
 		<string>sibling</string>
 		<string>stewardship</string>
+		<string>technology_can_spread</string>
 		<string>temporary</string>
 		<string>terrain</string>
 		<string>their_opinion</string>
@@ -802,6 +887,30 @@
 		<string>only_rulers</string>
 		<string>capable_only</string>
 		<string>only_playable</string>
+		<string>clan_satisfaction</string>
+		<string>total_manpower</string>
+		<string>unused_manpower</string>
+		<string>raised_manpower</string>
+		<string>max_manpower</string>
+		<string>manpower_growth</string>
+		<string>population</string>
+		<string>max_population</string>
+		<string>population_growth</string>
+		<string>population_and_manpower</string>
+		<string>max_population_and_manpower</string>
+		<string>population_and_manpower_growth</string>
+		<string>uses_decadence</string>
+		<string>trade_post_has_building</string>
+		<string>trade_post_has_any_building</string>
+		<string>fort_has_building</string>
+		<string>fort_has_any_building</string>
+		<string>trade_post_owner</string>
+		<string>clan_opinion</string>
+		<string>reverse_clan_opinion</string>
+		<string>their_clan_opinion</string>
+		<string>clan_opinion_diff</string>
+		<string>reverse_clan_opinion_diff</string>
+		<string>religion_allows_female_temple_holders</string>
 	</array>
 	<key>BBLMCommentLineDefault</key>
 	<string>#</string>
