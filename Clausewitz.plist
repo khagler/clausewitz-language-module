@@ -788,6 +788,7 @@
 		<string>num_of_forts</string>
 		<string>num_of_forts_diff</string>
 		<string>num_of_friends</string>
+		<string>num_of_government_vassals</string>
 		<string>num_of_holy_sites</string>
 		<string>num_of_king_titles</string>
 		<string>num_of_king_titles_in_realm</string>
