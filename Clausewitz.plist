@@ -305,6 +305,8 @@
 		<string>min_age</string>
 		<string>max_age</string>
 		<string>trigger</string>
+		<string>trigger_switch</string>
+		<string>on_trigger</string>
 		<string>option</string>
 		<string>mean_time_to_happen</string>
 		<string>modifier</string>
